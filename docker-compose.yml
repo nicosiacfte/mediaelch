@@ -14,5 +14,5 @@ services:
     volumes:
       - '${VOLUME_CONFIG}:/home/mediaelch/.config/kvibes'
     ports:
-      - '${PORT}:5800'
-      - '${VNC_PORTD}:5900'
+      - '5801:5800'
+      - '5901:5900'
